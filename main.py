@@ -66,7 +66,7 @@ class MaterializedPathTree:
         return len(self.nodes)
 
 
-# 3)Конвертация
+# Конвертация
 
 def convert_al_to_mp(al: AdjacencyListTree, sep: str = "/") -> MaterializedPathTree:
     mp = MaterializedPathTree(sep=sep)
